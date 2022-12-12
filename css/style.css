@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient(90deg, #347975 0%, #265D7C 100%);
+}
+
+.nested-container {
+    height: 370px;
+    width: 370px;
+    margin: auto;
+}
+
+.nested-container .row {
+    height: 100%;   
+}
+
+.board-square {
+    border: 2px solid #F7F7F7;
+    height: 25%;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.face-container {
+    height: 200%;
+    width: 100%;
+    position: absolute;
+    transition: 400ms;
+}
+
+.facedown, .faceup {
+    height: 50%;
+}
+
+.facedown {
+    background-color: #D0D0D0;
+}
+
+.faceup {
+    background-color: coral;
+}
+
+.flipped .face-container {
+    top: -100%;
+}
+
+
+/* Colors */
+
+.color-0 {
+    background-color: #fcba03;
+}
+
+.color-1 {
+    background-color: #fc8c03;
+}
+
+.color-2 {
+    background-color: #fc0303;
+}
+
+.color-3 {
+    background-color: #73fc03;
+}
+
+.color-4 {
+    background-color: #03fc88;
+}
+
+.color-5 {
+    background-color: #031cfc;
+}
+
+.color-6 {
+    background-color: #ce03fc;
+}
+
+.color-7 {
+    background-color: #590643;
+}
