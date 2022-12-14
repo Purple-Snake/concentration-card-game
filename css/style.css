@@ -2,6 +2,24 @@ body {
     background: linear-gradient(90deg, #347975 0%, #265D7C 100%);
 }
 
+.score, .time {
+    display: inline-block;
+    text-align: center;
+}
+
+.time {
+    position: absolute;
+    right: 0;
+}
+
+.score-top, .time-top {
+    background-color: #18587B;
+}
+
+.score-bottom, .time-bottom {
+    background-color: #D9D9D9;
+}
+
 .nested-container {
     height: 370px;
     width: 370px;
